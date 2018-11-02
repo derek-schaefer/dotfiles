@@ -1,0 +1,10 @@
+#!/bin/sh
+
+stow ack
+stow alacritty
+stow bash
+stow git
+stow htop
+stow ruby
+stow tmux
+stow vim

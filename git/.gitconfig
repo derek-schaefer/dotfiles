@@ -1,0 +1,19 @@
+[user]
+  name = Derek Schaefer
+  email = derek.schaefer@gmail.com
+
+[push]
+  default = simple
+
+[alias]
+  pl = pull
+  ci = commit
+  co = checkout
+  cp = cherry-pick
+  br = branch
+  rb = rebase
+  df = diff
+  dc = diff --cached
+  dw = diff --color-words
+  ds = diff --color-words=.
+  st = status --short --branch
