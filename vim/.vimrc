@@ -34,14 +34,14 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'itchyny/lightline.vim'
-Plugin 'mxw/vim-jsx'
 Plugin 'pangloss/vim-javascript'
-Plugin 'scrooloose/nerdtree'
+Plugin 'mxw/vim-jsx'
 
 call vundle#end()
 filetype plugin indent on
@@ -64,3 +64,4 @@ map <Leader>h :nohlsearch<CR>
 map <Leader>s :setlocal spell!<CR>
 map <Leader>f <Plug>(easymotion-bd-f)
 map <Leader>t :NERDTreeToggle<CR>
+nnoremap <F8> :setl noai nocin nosi inde=<CR>
