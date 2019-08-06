@@ -42,6 +42,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'itchyny/lightline.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'hashivim/vim-terraform'
 
 call vundle#end()
 filetype plugin indent on
