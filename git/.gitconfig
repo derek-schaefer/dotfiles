@@ -17,3 +17,5 @@
   dw = diff --color-words
   ds = diff --color-words=.
   st = status --short --branch
+[diff]
+  tool = vimdiff
