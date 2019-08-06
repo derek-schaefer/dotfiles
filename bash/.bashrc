@@ -43,3 +43,11 @@ alias denv='env $([ -f .env ] && cat .env | xargs)'
 if [ -f ~/.bash_local ]; then
   source ~/.bash_local
 fi
+
+#
+# Tmux
+#
+
+if [ -x "$(command -v tmux)" ] && [ -z "$TMUX" ]; then
+  tmux
+fi
