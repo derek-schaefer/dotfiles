@@ -30,11 +30,32 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 alias dc='docker-compose'
 alias dcr='docker-compose run --rm'
 
+# Docker Sync
+
+alias ds='docker-sync'
+alias dss='docker-sync start -f'
+
 #
 # Dotenv
 #
 
 alias denv='env $([ -f .env ] && cat .env | xargs)'
+
+#
+# Git
+#
+
+function grh {
+  read -p 'Are you sure? [Yn]: ' CHOICE
+
+  if [[ ! -z "$CHOICE" ]] && [[ ! "$CHOICE" =~ ^[Yy]$ ]]; then
+    return 0
+  fi
+
+  git fetch --all
+
+  git reset --hard origin/$(git rev-parse --abbrev-ref HEAD)
+}
 
 #
 # Local
