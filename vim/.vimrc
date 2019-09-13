@@ -41,7 +41,7 @@ Plugin 'elixir-lang/vim-elixir'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'itchyny/lightline.vim'
 Plugin 'pangloss/vim-javascript'
-Plugin 'mxw/vim-jsx'
+Plugin 'maxmellon/vim-jsx-pretty'
 Plugin 'hashivim/vim-terraform'
 
 call vundle#end()
@@ -54,7 +54,6 @@ highlight LineNr ctermbg=none
 highlight NonText ctermbg=none
 
 let mapleader=','
-let g:jsx_ext_required=0
 let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ }
