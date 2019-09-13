@@ -1,10 +1,8 @@
 [user]
   name = Derek Schaefer
   email = derek.schaefer@gmail.com
-
 [push]
   default = simple
-
 [alias]
   pl = pull
   ci = commit
@@ -12,10 +10,20 @@
   cp = cherry-pick
   br = branch
   rb = rebase
+  ra = rebase --abort
+  rc = rebase --continue
   df = diff
   dc = diff --cached
   dw = diff --color-words
   ds = diff --color-words=.
   st = status --short --branch
+  dt = difftool
+  mt = mergetool
 [diff]
   tool = vimdiff
+[merge]
+  tool = vimdiff
+[difftool]
+  prompt = false
+[mergetool]
+  prompt = false
