@@ -69,6 +69,6 @@ fi
 # Tmux
 #
 
-if [ -x "$(command -v tmux)" ] && [ -z "$TMUX" ]; then
-  tmux
-fi
+# if [ -x "$(command -v tmux)" ] && [ -z "$TMUX" ]; then
+#   tmux
+# fi
