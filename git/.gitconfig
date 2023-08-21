@@ -3,6 +3,7 @@
   email = derek.schaefer@gmail.com
 [push]
   default = simple
+  autoSetupRemote = true
 [alias]
   pl = pull
   ci = commit
@@ -27,3 +28,10 @@
   prompt = false
 [mergetool]
   prompt = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
