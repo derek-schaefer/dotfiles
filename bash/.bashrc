@@ -29,11 +29,12 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 
 alias dc='docker-compose'
 alias dcr='docker-compose run --rm'
+alias dce='docker-compose exec'
 
 # Docker Sync
 
 alias ds='docker-sync'
-alias dss='docker-sync start -f'
+alias dss='docker-sync start --no-daemon --foreground --no-logd'
 
 #
 # Dotenv
