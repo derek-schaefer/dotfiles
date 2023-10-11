@@ -3,6 +3,8 @@ syntax on
 set autoindent
 set autoread
 set backspace=2
+set cursorline
+set cursorlineopt=number
 set expandtab
 set hlsearch
 set incsearch
@@ -52,6 +54,7 @@ colorscheme wombat256
 highlight Normal ctermbg=none
 highlight LineNr ctermbg=none
 highlight NonText ctermbg=none
+highlight CursorLineNr ctermfg=grey cterm=bold
 
 let mapleader=','
 let g:lightline = {
