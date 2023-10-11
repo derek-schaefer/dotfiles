@@ -9,3 +9,5 @@
 --ignore-dir=vendor
 
 --type-add=css=scss
+
+--type-set=jest=.spec.js
