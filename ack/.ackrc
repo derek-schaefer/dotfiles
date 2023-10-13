@@ -7,6 +7,8 @@
 --ignore-dir=public/assets
 --ignore-dir=tmp
 --ignore-dir=vendor
+--ignore-dir=.yarn
+--ignore-dir=cdk.out
 
 --type-add=css=scss
 
