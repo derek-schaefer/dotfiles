@@ -1,6 +1,6 @@
 # dotfiles
 
-First, clone this repo to `~/dotfiles`.
+First, clone this repo to `~/.dotfiles`.
 
 Next, install [GNU Stow](https://www.gnu.org/software/stow/).
 
@@ -10,7 +10,7 @@ On Mac:
 $ brew install stow
 ```
 
-On Ubuntu:
+On Debian/Ubuntu:
 
 ```shell
 $ sudo apt install stow
