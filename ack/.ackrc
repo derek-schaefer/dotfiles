@@ -1,15 +1,17 @@
+# General
 --color
+--type-add=css=scss
 
---ignore-dir=__snapshots__
---ignore-dir=coverage
---ignore-dir=log
+# Node
+--type-set=jest=.spec.js
 --ignore-dir=node_modules
+--ignore-dir=.yarn
+--ignore-dir=cdk.out
+--ignore-dir=__snapshots__
+
+# Ruby
 --ignore-dir=public/assets
 --ignore-dir=tmp
 --ignore-dir=vendor
---ignore-dir=.yarn
---ignore-dir=cdk.out
-
---type-add=css=scss
-
---type-set=jest=.spec.js
+--ignore-dir=coverage
+--ignore-dir=log
